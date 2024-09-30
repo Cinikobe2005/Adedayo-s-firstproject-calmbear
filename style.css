@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+  --orangecolor: #f97f0f;
+  --black: #000000;
+  --header: #08748c;
+  --section1bgcolor: #08748c4d;
+  --section2backgroundcolor: #fcbb80;
+  --dropshadowcolor: #08748c;
+  --white: #ffffff;
+  --section4backgroundcolor: #b5d5dd;
+  --cardcolor1: #cfd0ed;
+  --cardcolor2: #bfe6dd;
+  --cardcolor3: #f6fdff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Righteous", sans-serif;
+}
+
+p {
+  font-family: "Reddit Sans", system-ui;
+  font-size: 20px;
+}
+
+header {
+  height: 107px;
+  width: 100%;
+  background-color: #08748c;
+  position: sticky;
+  top: 0;
+}
+
+nav{
+    background-color: #08748C;
+}
+
+#logo {
+  border: none;
+  border-radius: 4px;
+  width: 154px;
+  height: 75px;
+  align-content: center;
+}
+
+#btncontainer {
+  display: flex;
+  gap: 10px;
+}
+.downloadappbtn {
+  background-color: var(--orangecolor);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 150px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.downloadappbtn:hover{
+    background-color: #FFFFFF;
+    color: #08748C;
+}
+.registerbtn {
+  width: 130px;
+  height: 50px;
+  border: 1px solid var(--orangecolor);
+  border-radius: 8px;
+  color: var(--orangecolor);
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 15px;
+}
+.registerbtn:hover{
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+#sect1 {
+  background-color: #08748c4d;
+}
+
+#sect1div h1 {
+  color: #000000;
+  font-family: "Righteous", sans-serif;
+  padding-right: 50px;
+  font-size: 30px;
+}
+#sect1div p {
+  color: #000000;
+  line-height: 20.78px;
+  font-weight: 400;
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 13px;
+}
+#btn-container2 {
+  display: flex;
+  gap: 12px;
+}
+.sect1btn1 {
+  width: 140px;
+  font-size: 20px;
+  height: 50px;
+  background-color: #f97f0f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px, 36px, 12px, 36px;
+}
+.sect1btn1:hover{
+    background-color: #FFFFFF;
+    color: #08748C;
+}
+.sect1btn2 {
+  width: 140px;
+  font-size: 20px;
+  height: 50px;
+  border: 1px solid #f97f0f;
+  color: #f97f0f;
+  background: transparent;
+  padding: 12px, 36px, 12px, 36px;
+  border-radius: 8px;
+}
+.sect1btn2:hover{
+    background-color: transparent;
+    color: #08748C;
+    border: 1px solid #08748C;
+    box-shadow: 0px 0px 3px #08748C;
+}
+#sect1 img{
+  width: 450px;
+}
+
+#sect2 {
+  height: 202px;
+  margin: auto;
+  margin-top: -60px;
+  border: none;
+  border-radius: 15px;
+  background-color: #fcbb80;
+  filter: drop-shadow(3px, 4px, 25px, #08748c);
+}
+#sect2 section {
+  padding: 36px, 23px;
+}
+
+#sect2 h3 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #000000;
+  font-family: "Righteous", sans-serif;
+}
+#sect2 p {
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+  font-family: "Reddit Sans", sans-serif;
+}
+
+
+#about {
+  background-color: white;
+  background-image: url(./projectimages/Group\ 3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#about h2 {
+  font-family: "Righteous", sans-serif;
+  font-size: 30px;
+}
+#about p {
+  color: #000000;
+  font-family: "Reddit Sans", system-ui;
+  font-size: 12px;
+}
+#about button {
+  color: white;
+  background-color: #f97f0f;
+  padding: 12px, 36px, 12px, 36px;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 150px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Reddit Sans", system-ui;
+}
+#about button:hover{
+    background-color: #eff2f3;
+    color: #08748C;
+}
+#sect4div {
+  background-color: #b5d5dd;
+  width: 100%;
+}
+
+#sect4div h2 {
+  color: #000000;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+}
+#sect4div p {
+  font-size: 20px;
+  font-family: "Reddit Sans", system-ui;
+}
+
+#ul{
+  text-align: start;
+}
+#ul li::marker {
+  color: #f97f0f;
+  font-family: "Reddit Sans", system-ui;
+  font-size: 20px;
+}
+
+#btndiv {
+  display: flex;
+  gap: 12px;
+}
+#sect4 img{
+     width: 50%;
+}
+#sect4div{
+  width: 100%;
+}
+#sect4btn1 {
+  font-weight: 500;
+  font-size: 15px;
+  width: 273px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px, 36px, 12px, 36px;
+  background-color: #f97f0f;
+  color: white;
+}
+#sect4btn2 {
+  font-weight: 500;
+  font-size: 15px;
+  width: 273px;
+  height: 50px;
+  padding: 12px, 75px, 12px, 75px;
+  border: 1px solid #f97f0f;
+  border-radius: 8px;
+  color: #f97f0f;
+  background-color: transparent;
+}
+
+#sect5 h1,
+h3 {
+  font-weight: 400;
+  color: #000000;
+  font-family: "Righteous", sans-serif;
+}
+#sect5 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.78px;
+  color: #000000;
+  font-family: "Reddit Sans", system-ui;
+}
+
+#iconnn img{
+  width: 240px;
+}
+#sect6 h1 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+}
+#sect6 p {
+  font-size: 13px;
+  line-height: 20.78px;
+  color: #000000;
+  font-family: "Reddit Sans", system-ui;
+}
+
+#sect6btn1 {
+  padding: 12px, 36px, 12px, 36px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f97f0f;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Reddit Sans", system-ui;
+}
+#sect6btn2 {
+  padding: 12px, 75px, 12px, 75px;
+  width: 130px;
+  height: 50px;
+  border: 1px solid #f97f0f;
+  border-radius: 8px;
+  color: #f97f0f;
+  background-color: white;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Reddit Sans", system-ui;
+}
+#access {
+  width: 100%;
+  background-color: #cfd0ed;
+  border-radius: 14px;
+  padding: 14px, 12px, 14px, 12px;
+}
+#matching {
+  width: 100%;
+  background-color: #bfe6dd;
+  border-radius: 14px;
+  padding: 14px, 12px, 14px, 12px;
+}
+
+#flexible {
+  width: 100%;
+  background-color: #bfe6dd;
+  border-radius: 14px;
+  padding: 14px, 12px, 14px, 12px;
+}
+#affordable {
+  width: 100%;
+  background-color: #cfd0ed;
+  border-radius: 14px;
+  padding: 14px, 12px, 14px, 12px;
+}
+
+#sect7 h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Righteous", sans-serif;
+}
+#barryallen,
+#sarutobi,
+#itadori {
+  border: 2px solid #F6FDFF;
+  border-radius: 10px;
+  padding: 17px, 14px, 17px, 14px;
+  background-color: #f6fdff;
+  filter: drop-shadow(0px, 2px, 4px 0px #000000);
+  box-shadow: 0px 2px 4px 0px #00000040;
+  
+  
+}
+#sect7 p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31.17px;
+  font-family: "Reddit Sans", system-ui;
+}
+#sect7 h5 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Reddit Sans", system-ui;
+}
+
+#sect8 {
+  background-image: url(./projectimages/Frame\ 1171276764.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#sect8 section {
+  text-align: center;
+}
+#sect8 h2 {
+  color: white;
+  font-weight: 400;
+  font-family: "Righteous", sans-serif;
+}
+#sect8btncontainer {
+  padding-bottom: 20px;
+}
+#sect8btn1 {
+  background-color: #f97f0f;
+  color: white;
+  padding: 12px, 36px, 12px, 36px;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+}
+#sect8btn1:hover{
+    background-color: #FFFFFF;
+    color: #08748C;
+}
+#sect8btn2 {
+  background-color: transparent;
+  color: #f97f0f;
+  border: 1px solid #f97f0f;
+  border-radius: 8px;
+  padding: 12px, 75px, 12px, 75px;
+  height: 50px;
+  width: 130px;
+}
+
+#sect8btn2:hover{
+    border: 1px solid black;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+}
+footer p{
+  font-size: 13px;
+}
+#footerlinks a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#footerlogo {
+  border: none;
+  border-radius: 4px;
+  height: 75px;
+  width: 154px;
+  align-content: center;
+  background-color: white;
+}
+
+#footerinput {
+  align-content: center;
+  height: 50px;
+  width: 280px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Reddit Sans", system-ui;
+  display: flex;
+}
+footer input {
+  border: none;
+  height: 50px;
+  border-radius: 8px;
+  width: 180px;
+}
+footer button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  padding: 9px, 17px, 9px, 17px;
+  background-color: #f97f0f;
+  color: white;
+  margin: auto;
+  margin-right: 10px;
+}
+
+@media (min-width: 1024px) {
+    #sect1{
+   gap: 179px;
+    }
+    #sect1div{
+        width: 50%;
+        height: 303px;
+    }
+    #sect1 p{
+        width: 485px;
+        font-size: 16px;
+    }
+    #readcontainer{
+        width: 506px;
+        height: 243px;
+    }
+    #readcontainer p{
+        font-size: 16px;
+        width: 506px;
+        height: 105px;
+        font-weight: 400;
+        line-height: 20.78px;
+    }
+    #sect4div{
+      width: 50%;
+    }
+    #sect6why{
+        width: 444px;
+        height: 301px;
+    }
+    #sect6why h1{
+        font-size: 58px;
+        width: 444px;
+        height: 144px;
+    }
+    #sect6why p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.78px;
+        width: 444px;
+        height: 63px;
+    }
+    #sect6btncontainer{
+        display: flex;
+        gap: 12px;
+    }
+
+    #barryallen,
+#sarutobi,
+#itadori{
+  width: 356px;
+}
+}
